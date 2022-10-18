@@ -8,5 +8,7 @@ df_4 <- read.csv("data/data_4.csv")
 
 #list.files(path = ".", pattern = "csv") #montre les ficheirs csv qu'on a 
 
-df_rbind <- rbind(df_1, df_2, df_3, df_4) # combiner 4 objets dans 1
+df <- rbind(df_1, df_2, df_3, df_4) # combiner 4 objets dans 1
 
+#### tache 2 ####
+df <- df[ ,-1]
