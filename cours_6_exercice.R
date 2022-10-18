@@ -12,3 +12,6 @@ df <- rbind(df_1, df_2, df_3, df_4) # combiner 4 objets dans 1
 
 #### tache 2 ####
 df <- df[ ,-1]
+
+#### tache 3 ####
+sum(!is.na(df$name)) # calcul la somme des valeurs bonnes
